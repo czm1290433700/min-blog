@@ -1,0 +1,14 @@
+@charset "UTF-8";
+.left h2{text-align: center;margin-bottom:60px;}
+.left ul{width:650px;margin:0px auto;margin-bottom:60px;}
+.left li{padding:10px 10px;overflow: hidden;font-size:14px;font-weight:bold;}
+.left img{width:40px;height:40px;border-radius: 20px 20px 20px 20px;vertical-align: middle;}
+.left .author{color:black;font-weight:550;font-size:15px;margin-right:20px;float:left;}
+.left .content{color:#777788;font-weight:normal;width:450px;float:left;padding:10px 0px;}
+.left .answer{color:#999999;padding-left:390px;font-weight:normal;}
+.left .note{float:right;}
+.left .time{color:#F66E54;color:blue;margin-right:8px;font-weight: normal;}
+.left .a{float:right;padding-right:100px;}
+.left .ans{width:650px;padding-left:10px;display: none;}
+.left .ans .answ{font-weight:bold;margin-bottom:15px;display: inline-block;}
+.left input[type='submit']{width:50px;height:30px;border:none;margin-bottom:20px;}

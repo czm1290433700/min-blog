@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* CSS Document*/
+*{margin:0px;padding:0px;}
+li{list-style-type:none;}
+a{text-decoration:none;color:black;}
+a:hover{color:red;}
+
+#body{width:100%;height:100%;background-color:#F7F7F7;overflow:hidden;}
+	.user{background-color:white;position:absolute;top:12%;right:5%;border:1px #F7F7F7 solid;width:140px;visibility:hidden;box-shadow:1px 1px 1px 1px #F7F7F7;}
+	.user li{padding:10px 20px;}
+	
+	#left{width:3%;height:100%;background-color: #181F24;float:left;margin-right:70px;}
+	#left ul{height:100%;}
+	#left li{width:100%;background-color:#232C32;padding:35px 20px;padding-right:40px;font-size:12px;font-weight:bold;color:white;}
+	#left .home{background-color:#36B0C8;}
+	
+	#right{width:91%;float:left;margin-bottom:20px;}
+	#right .head{width:100%;background-color:white;overflow:hidden;}
+	#right .head li{float:left;display:inline-block;font-weight:bold;line-height:40px;font-size:17px;}
+	#right .head li a{color:black;text-decoration:none;font-weight:bold;}
+	#right .head li a:hover{color:red;text-decoration:none;font-weight:bold;}
+	#right .head .l{float:left;}
+	#right .head .l li{padding:30px 80px;}
+	#right .head .r{float:right;}
+	#right .head .r li{padding:30px 50px;}
+	#right .head .headpic{width:40px;height:40px;vertical-align: middle;}
+	
+	#main{width:91%;float:left;min-height:100px;}
+		.left{width:980px;background-color:white;float:left;margin-right:40px;min-height:100px;padding:40px 0px;}
+		.right{float:left;}
+		.right .one{width:300px;margin-bottom:20px;background-color:white;padding:40px 30px;}
+		.right .two{width:300px;margin-bottom:20px;background-color:white;padding:40px 30px;}
+		.right li{margin-bottom:20px;}
+
+	#copyright{padding:20px;background-color:#F7F7F7;}
+		.copy{width:1000px;margin:0px auto;text-align:center;}

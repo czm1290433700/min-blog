@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* CSS Document*/
+*{margin:0px;padding:0px;font-family: 'Raleway', sans-serif;}
+a{text-decoration: none;color:black;}
+a:hover{text-decoration: none;color:red;}
+h1{font-size:50px;margin:0px;font-weight:lighter;line-height: 20px;}
+h2{font-size:35px;font-weight:lighter;line-height: 20px;margin-bottom:25px;}
+input[value="READ MORE"]{background-color: #FA4B2A;color:white;padding:10px 0px;width:180px;font-size:17px;font-weight:400;border:none;}
+input[value="LOGIN NOW"]{background-color: #FA4B2A;color:white;padding:10px 0px;width:180px;font-size:17px;font-weight:400;border:none;}
+input[type="text"]{width:300px;height:40px;margin-bottom:5px;}
+input[value="subscribed Now"]{background-color: #FA4B2A;color:white;padding:10px 0px;width:300px;font-size:17px;font-weight:400;border:none;}
+
+#head{width:100%;background-color: #F7F7F7;}
+ 	.index{padding:30px;text-align:center;margin-bottom:40px;border:1px black solid;}
+	.index ul{margin:0px auto;width:800px;display:inline-block;}
+	.index li{list-style-type: none;float:left;margin:0px 10px;font-size:15px;padding:0px 20px;}
+	.index .home a{color:red;}
+	.index #login{float:right;margin:0px auto;height:20px;}
+	.title{width:100%;text-align: center;padding-bottom:30px;}
+	.title h1{font-size:50px;font-weight:300;line-height:1;}
+	.title span{font-size:15px;color:red;padding:20px 10px;}
+	.title label{background:black;width:86px;height:2px;display:inline-block;}
+	
+#body{width:100%;background-color: #F7F7F7;}
+	.introduce{background: url(../images/banner-1.jpg) no-repeat 0px 0px;min-height: 600px;text-align:center;color:white;padding:10em 0 0;}
+	.introduce span{font-size:40px;}
+	.introduce p{color:rgba(255, 255, 255, 0.46);font-size:20px;line-height:40px;}
+	
+#foot{width:100%;background-color:#303030;min-height:350px;padding-bottom:30px;}
+	.about{width:1200px;margin:0px auto;display:table;}
+	.about .model{width:333px;float:left;color:white;margin:40px 30px;display:table-cell;}
+	.about .model img{width:330px}
+	.about .model p{font-size:17px;line-height:30px;margin:30px 0px;}
+
+#copyright{background-color:black;padding:30px;}
+	.copy{width:1000px;margin:0px auto;color:white;text-align:center;}

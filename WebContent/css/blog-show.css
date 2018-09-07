@@ -1,0 +1,9 @@
+@charset "UTF-8";
+.left h2{font-size:25px;text-align:center;}
+.left ul{width:500px;margin:0px auto;}
+.left li{padding:10px 0px;list-style-type: disc;margin-bottom:20px;}
+.left li .b{color:#29B70A;}
+.left li .c{float:right;color:blue;}
+.left li .d{font-weight:bold;font-size:18px;}
+.left .a{width:400px;float:right;padding:40px 40px;}
+.left .none{width:300px;margin:0px auto;text-align:center;font-weight:bold;color:#788188;}

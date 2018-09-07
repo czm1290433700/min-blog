@@ -1,0 +1,13 @@
+@charset "UTF-8";
+.left h2{font-size:30px;text-align:center;}
+		.left table{margin:0px auto;width:500px;}
+		.left tr{padding:10px 0px;display:block;}
+		.left .title{font-weight:600;font-size:18px;width:100px;padding-left:40px;}
+		.left .userpic{text-align:center;}
+		.left .userpic .pic{width:120px;height:120px;}
+		.left .userpic span{color:red;}
+		.left .userpic .file{visibility: hidden;}
+		.left .userpic .filebutton{width:70px;height:35px;background-color:#71AFED;border:none;color:white;}
+		.left input[type="text"]{width:300px;height:35px;}
+		.left input[type="password"]{width:300px;height:35px;}
+		.left input[type="submit"]{width:55px;height:35px;border:none;background-color:#E6E6E6;}
