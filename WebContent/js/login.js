@@ -4,7 +4,7 @@
 $(function(){
 	$("input[name='name']").blur(checkName);
 	$("input[name='tel']").blur(checkTel);
-	$("input[name='nickname']").blur(checkNick);
+	$("input[name='nickname']").blur(checkNick).blur(nickCheck);
 	$("input[name='pwd']").blur(checkPwd);
 	$("input[name='okpwd']").blur(checkOkpwd);
 	$("input[value='REGISTER']").click(checkInterst).click(checkName).click(checkTel).click(checkNick).click(checkPwd).click(checkOkpwd);
@@ -37,6 +37,7 @@ $(function(){
 		var nickname=$("input[name='nickname']").val();
 		var $nickname=$(".nickname");
 		var maxwidth=8;
+		var judge=0;
 		if(nickname==""){
 			$nickname.html("昵称不能为空，请输入姓名！").css("color","red");
 			return false;
@@ -48,8 +49,23 @@ $(function(){
 				return false;
 		    }
 		    else{
-		    	$nickname.html("");
-				return true;
+		    	$.ajax({
+					method:"post",
+					url:"/blog/servlet/nickcheck",
+					data:{"nickname":encodeURI($("input[name='nickname']").val())},
+					success:function(data){
+						$(".nickname").html(data).css("color","red");
+						if(data.equals("")){
+							judge=1;
+						}
+					}
+				});
+		    	if(judge=1){
+					    	$nickname.html("");
+							return true;
+		    	}else{
+		    		return false;
+		    	}
 		    }
 		}
 	}
@@ -98,5 +114,5 @@ $(function(){
 		else{
 			return false;
 		}
-	}		
+	}
 })

@@ -10,6 +10,7 @@
 <script type="text/javascript" src="../ckeditor/ckeditor.js"></script>
 <script type="text/javascript" src="../js/personuser.js"></script>
 <script type="text/javascript" src="../js/submit.js"></script>
+<script type="text/javascript" src="../js/user-pic.js"></script>
 <title>个人首页-资料设置</title>
 </head>
 <body>

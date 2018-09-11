@@ -9,6 +9,7 @@
 <script src="../js/logincheck.js" type="text/javascript"></script>
 <script src="../js/submit.js" type="text/javascript"></script>
 <script src="../js/answer.js" type="text/javascript"></script>
+<script src="../js/textarea.js" type="text/javascript"></script>
 <script src="../js/bootstrap.min.js"></script>
 <script type="text/javascript" src="../ckeditor/ckeditor.js"></script>
 <title>TRAVEL</title>

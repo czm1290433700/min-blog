@@ -89,7 +89,7 @@
 									%>
 									<form action="../achieve/commentInsert2.jsp?inid=<%=inid %>&bid=<%=bid %>&tocid=<%=cid %>&tid=<%=tid %>" method="post">
 									<span class="answ">回复<%=commenter %>:</span><br/><textarea rows="4" cols="55" name="ccontent"></textarea><br/><br/>
-									<input type="submit" value="发表">
+									<input class="tx" type="submit" value="发表" onclick="return checkTextarea()">
 									</form>
 								</div>
 							<% 
@@ -158,7 +158,7 @@
 									%>
 									<form action="../achieve/commentInsert2.jsp?inid=<%=inid2 %>&bid=<%=bid %>&tocid=<%=cid2 %>&tid=<%=tid %>" method="post">
 									<span class="answ">回复<%=commenter2 %>:</span><br/><textarea rows="4" cols="55" name="ccontent"></textarea><br/><br/>
-									<input type="submit" value="发表">
+									<input class="tx" type="submit" value="发表" onclick="return checkTextarea()">
 									</form>
 								</div>
 								<%}
@@ -307,7 +307,7 @@
 						ckeditor.replace('TextArea');
 					</script><br/>
 					<br/>
-					<input class="type" type="submit" value="发表">
+					<input class="type" type="submit" value="发表" onclick="return checkCkeditor()">
 					</form>
 					<%
 				} 

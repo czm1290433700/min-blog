@@ -13,6 +13,7 @@
 <link href="../css/comment-show.css" rel="stylesheet" type="text/css" />
 <script src="../js/jquery-1.8.3.js" type="text/javascript"></script>
 <script type="text/javascript" src="../ckeditor/ckeditor.js"></script>
+<script type="text/javascript" src="../js/textarea.js"></script>
 <script type="text/javascript" src="../js/personuser.js"></script>
 <script type="text/javascript" src="../js/comment-show.js"></script>
 <title>个人首页-评论</title>
@@ -81,7 +82,7 @@
 				%>
 				<form action="../achieve/commentInsert3.jsp?inid=<%=inid2 %>&bid=<%=bid %>&tocid=<%=tocid %>&tid=<%=tid %>&pageNum=<%=pageNum %>" method="post">
 				<span class="answ">回复</span><br/><textarea rows="4" cols="75" name="ccontent"></textarea><br/><br/>
-				<input type="submit" value="发表">
+				<input class="tx" type="submit" value="发表" onclick="return checkTextarea()">
 				</form>
 			</div>
 			<%}

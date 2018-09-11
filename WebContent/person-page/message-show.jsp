@@ -14,6 +14,7 @@
 <script src="../js/jquery-1.8.3.js" type="text/javascript"></script>
 <script type="text/javascript" src="../ckeditor/ckeditor.js"></script>
 <script type="text/javascript" src="../js/personuser.js"></script>
+<script type="text/javascript" src="../js/textarea.js"></script>
 <script type="text/javascript" src="../js/comment-show.js"></script>
 <title>个人首页-留言</title>
 </head>
@@ -68,7 +69,7 @@
     				%>
     				<form action="../achieve/message-insert2.jsp?inid=<%=toid %>&toid=<%=inid %>&pageNum=<%=pageNum %>" method="post">
     				<span class="answ">留言</span><br/><textarea rows="4" cols="75" name="mcontent"></textarea><br/><br/>
-    				<input type="submit" value="回复">
+    				<input class="tx" type="submit" value="回复" onclick="return checkTextarea()">
     				</form>
     			</div>
     			<%

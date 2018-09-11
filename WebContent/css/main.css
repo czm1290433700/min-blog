@@ -46,8 +46,8 @@ input[value="subscribed Now"]{background-color: #FA4B2A;color:white;padding:10px
 			.left .blog img{width:260px;height:160px;}
 			.left .blog .author{float:left;}
 			.left .blog .time{float:right;color:red;}
-			.left .blog .content1{color:#B2B2BF;height:40px;text-overflow: -o-ellipsis-lastline;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;font-size:13px;line-height:20px;}
-			.left .blog .content2{color:#B2B2BF;height:160px;text-overflow: -o-ellipsis-lastline;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;font-size:13px;line-height:20px;}
+			.left .blog .content1{color:#B2B2BF;height:40px;overflow: hidden;display: -webkit-box;-webkit-box-orient: vertical;font-size:13px;line-height:20px;}
+			.left .blog .content2{color:#B2B2BF;height:160px;overflow: hidden;display: -webkit-box;-webkit-box-orient: vertical;font-size:13px;line-height:20px;}
 			.left .blog .content3{height:48px;text-overflow: -o-ellipsis-lastline;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
 			.left .blog .more{float:right;color:blue;font-size:20px;font-weight:bold;}
 			.left .blog a{font-size:13px;color:#9393FA;font-weight:bold;}
